@@ -1,0 +1,42 @@
+{
+  "name": "authentication-environment",
+  "version": "1.0.0",
+  "description": "Authentication with Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeludemann/authentication-environment.git"
+  },
+  "keywords": [
+    "Authentication",
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "Login",
+    "Registration"
+  ],
+  "author": "Mike Ludemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeludemann/authentication-environment/issues"
+  },
+  "homepage": "https://github.com/mikeludemann/authentication-environment#readme",
+  "devDependencies": {
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "chalk": "^3.0.0",
+    "classnames": "^2.2.6",
+    "connect-mongo": "^3.1.2",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "log4js": "^6.1.0",
+    "mongoose": "^5.7.12",
+    "nodemon": "^2.0.1"
+  }
+}
